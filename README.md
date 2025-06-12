@@ -43,6 +43,8 @@ MasterThesis/
 
 ## 🚀 Run the Model
 
+**Make sure to change the input parameters in `primeSystem.py` first**
+
 Use any Python environment (Python 3.9+ recommended):
 
 ```bash
