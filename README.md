@@ -33,10 +33,11 @@ MasterThesis/
 | File              | Description                                                                 |
 |-------------------|-----------------------------------------------------------------------------|
 | `main.py`         | Main script to run the model and produce output (plots, response, etc.)     |
-| `solver.py`       | Solves the system of equations                                               |
-| `optimal_TMD.py`  | Calculates optimal damping/mass ratios for given system parameters          |
-| `primeSystem.py`  | Reduces the system to canonical form                                         |
-| `frf.py`          | Computes Frequency Response Function                                         |
+| `solver.py`       | Solver logic for Lin equations                                               |
+| `optimal_TMD.py`  | Calculates optimal damping/mass ratios for given system parameters (Den Hartog, Lin)          |
+| `primeSystem.py`  | Act as a config file for input parameters                                          |
+| `frf.py`          | Computes Frequency Response Function for an untuned system                                         
+|
 
 ---
 
