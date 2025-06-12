@@ -43,9 +43,19 @@ MasterThesis/
 
 ## 🚀 Run the Model
 
-**Make sure to change the input parameters in `primeSystem.py` first**
+1. Install dependencies (`numpy`, `matplotlib`, `scipy` and `math`)
+```bash 
+pip install requirements.txt
+```
+OR
 
-Use any Python environment (Python 3.9+ recommended):
+```bash
+pip install numpy matplotlib scipy math
+```
+
+2. Change the default input parameters in `primeSystem.py`
+
+3. Use any Python environment (Python 3.9+ recommended) to run `main.py`:
 
 ```bash
 cd Thesis.Py
