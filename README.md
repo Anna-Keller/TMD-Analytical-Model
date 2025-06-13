@@ -32,7 +32,7 @@ The primary system is modeled as a **1DOF system** and extended to a **2DOF syst
 | System Type | Diagram |
 |-------------|---------|
 | 1DOF System | ![Figure 48](./assets/figure_48_1dof.png) |
-| 2DOF with TMD | ![Figure 49](./assets/figure_49_2dof.png) |
+| 2DOF with TMD | ![Figure 49](./assets/figure_50_2dof.png) |
 
 
 ---
@@ -130,7 +130,7 @@ The amplitude of the system's response is visualized over a frequency range from
 ![Den Hartog vs Lin](./figures/den_hartog_vs_lin.png)
 
 #### Fixed Stiffness \( k_2 \) – TMD Optimization
-![Fixed k2 Comparison](./figures/fixed_k2_comparison.png)
+![Fixed k2 Comparison](./figures/fixed_k2.png)
 
 
 
