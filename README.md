@@ -1,13 +1,13 @@
 # 📘 TMD Analytical Model (Python)
 
-> Analytical model developed for Master's thesis on Tuned Mass Dampers (TMD) — Hochschule Furtwangen University (HFU), 2025
+> Analytical model developed for Master's thesis on Tuned Mass Dampers (TMD) — Hochschule Furtwangen University (HFU), 2024
 
 ---
 
 ## 🧠 Overview
 This repository contains the complete Python implementation of the analytical model described in:
 
-📄 **[Anna Keller – Master Thesis (PDF)](./AnnaKeller_MasterThesis_HFU_signed.pdf)**
+📄 **[Anna Keller – Master Thesis (PDF)](./7Chapter_AnalyticalModel.pdf)**
 
 The model investigates frequency response of a 2DOF mechanical system with a TMD, analyzing optimal parameters for damping.
 
@@ -151,11 +151,5 @@ This repository is based on analytical methods described in:
 **Anna Keller**  
 Master of Science in Biomedical Engineering  
 Hochschule Furtwangen University (HFU), Germany 2024  
-
----
-
-## 📄 License
-
-This project is released under the MIT License. Feel free to reuse, cite, and extend it.
 
 ---
