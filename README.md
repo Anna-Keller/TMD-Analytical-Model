@@ -42,21 +42,24 @@ The primary system is modeled as a **1DOF system** and extended to a **2DOF syst
 ## 📂 Repository Structure
 
 
+## 📂 Repository Structure
 
 ```bash
-├── README.md                         # Project description
-├── requirements.txt                  # Python dependencies
-├── figures/                          # Simulation output figures
+├── README.md                          # Project description and instructions
+├── requirements.txt                   # Python dependencies
+├── figures/                           # Simulation output figures
 │   ├── fixed_k2.png
-│   └── den_hartog_vs_lin.png         # Comparison plot (Den Hartog vs Lin)
+│   └── den_hartog_vs_lin.png          # Comparison plot (Den Hartog vs Lin)
 ├── MasterThesis/
-│   └── AnnaKeller_MasterThesis_HFU_signed.pdf
-├── Thesis.Py/                        # Python source code
-│   ├── main.py
-│   ├── frf.py
-│   ├── optimal_TMD.py
-│   ├── primeSystem.py
-│   └── solver.py
+│   └── AnnaKeller_MasterThesis_HFU_signed.pdf  # Full thesis PDF
+├── Thesis.Py/                         # Python source code
+│   ├── main.py                        # Main script (runs all logic & plots)
+│   ├── frf.py                         # Frequency response functions
+│   ├── optimal_TMD.py                 # TMD optimization algorithms
+│   ├── primeSystem.py                 # System input parameters
+│   └── solver.py                      # Equation solver used in Lin method
+
+```
 
 ---
 

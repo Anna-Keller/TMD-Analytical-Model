@@ -1,0 +1,26 @@
+# macOS system files
+.DS_Store
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter notebook checkpoints (если будешь использовать)
+.ipynb_checkpoints/
+
+# Virtual environment folders
+venv/
+.env/
+.venv/
+
+# VS Code settings (если используешь)
+.vscode/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Logs and OS metadata
+*.log
