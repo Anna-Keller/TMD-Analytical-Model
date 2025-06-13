@@ -31,8 +31,8 @@ The primary system is modeled as a **1DOF system** and extended to a **2DOF syst
 
 | System Type | Diagram |
 |-------------|---------|
-| 1DOF System | ![Figure 48](./assets/figure_48_1dof.png) |
-| 2DOF with TMD | ![Figure 49](./assets/figure_50_2dof.png) |
+| 1DOF System | ![Figure 48](./figures/figure_48_1dof.png) |
+| 2DOF with TMD | ![Figure 49](./figures/figure_50_2dof.png) |
 
 
 ---
