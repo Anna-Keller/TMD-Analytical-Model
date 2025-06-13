@@ -37,11 +37,6 @@ The primary system is modeled as a **1DOF system** and extended to a **2DOF syst
 
 ---
 
-## 📂 Structure
-
-## 📂 Repository Structure
-
-
 ## 📂 Repository Structure
 
 ```bash
@@ -78,14 +73,13 @@ The primary system is modeled as a **1DOF system** and extended to a **2DOF syst
 ## 📐 Example Formulae
 
 **Undamped 1DOF System:**
-\[
-H(\omega) = \frac{-\omega^2}{-m\omega^2 + j\omega c + k}
-\]
+![Undamped 1DOF](figures/formula_1dof.png)
 
 **Tuned with TMD (2DOF):**
-\[
-H_{tuned}(\omega) = \frac{-\omega^2}{-m_1\omega^2 + j\omega(c_1 + c_2) + k_1 + k_2 - \frac{(j\omega c_2 + k_2)^2}{-m_2 \omega^2 + j\omega c_2 + k_2}}
-\]
+![Tuned with TMD](figures/formula_2dof.png)
+
+
+These formulas are used to calculate the frequency response functions shown in the simulation output.
 
 ---
 
@@ -120,9 +114,9 @@ The script generates the following results:
   Shows the baseline dynamic behavior without any vibration absorber.
 
 - **Tuned System Responses Using:**
-  - **Den Hartog Method:** for a range of mass ratios \( \mu \)
-  - **Lin Method:** for the same range of \( \mu \)
-  - **Fixed Stiffness \( k_2 \):** using both Den Hartog and Lin approaches
+  - **Den Hartog Method:** for a range of mass ratios
+  - **Lin Method:** for the same range of mass ratios
+  - **Fixed Stiffness:** using both Den Hartog and Lin approaches
 
 Each plot illustrates the vibration suppression effect of the TMD compared to the baseline system.  
 The amplitude of the system's response is visualized over a frequency range from 100 to 600 Hz.
